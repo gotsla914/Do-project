@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $(function () {
+            $('.banner').parallax({
+                imageSrc: '/imgs/11.jpg'
+            });
+        });
+
+        $(function () {
+            $('.banner_middle').parallax({
+                imageSrc: '/imgs/12.jpg'
+            });
+        });
+
+        $(function () {
+            $('.banner_bottom').parallax({
+                imageSrc: '/imgs/13.jpg'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="banner">
+        <h2>Parallax Effect</h2>
+    </div>
+    <div class="blank"></div>
+    <div class="banner_middle">
+        <h2>Parallax Effect</h2>
+    </div>
+    <div class="blank"></div>
+    <div class="banner_bottom">
+        <h2>Parallax Effect</h2>
+    </div>
+    <div class="blank"></div>
+</body>
+
+</html>

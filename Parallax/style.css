@@ -1,0 +1,19 @@
+/* 안이 비어있으므로 높이를 주지 않으면 안나옴~! 
+최소 높이값 지정하잣*/
+
+.banner, .banner_middle, .banner_bottom {
+    min-height:750px;
+    background: transparent;
+}
+
+.blank {
+    height: 500px;
+}
+
+h2 {
+    display: inline-block;
+    padding: 10px;
+    font-size: 3em;
+    background-color: #fff;
+    color: rosybrown;
+}
