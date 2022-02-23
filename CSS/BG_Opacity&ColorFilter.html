@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+/* 배경 투명하게 만들기 */
+        /* .box01 {
+            width: 500px;
+            height: 300px;
+            position: relative;
+        }
+
+        .box01::before {
+            content: "";
+            background: url(https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_960_720.jpg);
+            background-size: cover;
+            opacity: 0.5;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        .box01 h1 {
+            color: rgb(121, 68, 219);
+            text-align: center;
+            line-height: 300px;
+            position: relative;
+        } */
+
+
+/* 위 응용해서 컬러필터 씌우기 */
+        .box01{
+        width: 500px;
+        height: 300px; 
+        position: relative;
+        background: url(https://cdn.pixabay.com/photo/2020/06/28/00/04/chicago-5347435_960_720.jpg);
+        background-size: cover;
+        }
+    .box01::before{
+        content: "";
+        opacity: 0.5;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-color: rgb(146, 48, 48);
+    }
+    .box01 h1{
+    color: #fff;
+    text-align: center;
+    line-height: 300px;  
+    position: relative;}
+
+    </style>
+</head>
+
+<body>
+    <div class="box01">
+        <h1>배경만 투명하게 만들기!</h1>
+    </div>
+</body>
+
+</html>
